@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dist/app.css">
+  <script src="dist/app.js"></script>
+  <title>Поиск черных лебедей</title>
+</head>
+<body>
+  <span class="logo_studio"><img src="AratStudio-logo-officialWhite.svg" alt="AratStudio" width="300px" height="100px"></span>
+  <div id="graph"></div>
+
+  <script>
+      const N = 40;
+      const gData = {
+        nodes: [...Array(N).keys()].map(i => ({ id: i })),
+        links: [...Array(N).keys()]
+          .filter(id => id)
+          .map(id => ({
+            source: id,
+            target: Math.round(Math.random() * (id-1))
+          }))
+      };
+    fetch('http://a0537314.xsph.ru/fakeplaceholder.json').then(res => res.json()).then(data => {
+      const Graph = ForceGraph()
+      (document.getElementById('graph'))
+        .graphData(data)
+        .nodeId('id')
+        .nodeVal('val')
+        .nodeLabel('id')
+        .nodeAutoColorBy('group')
+        .linkSource('source')
+        .linkTarget('target')
+        .linkDirectionalParticles("value")
+        //.linkDirectionalParticleSpeed(d => d.value * 0.001)
+        .linkAutoColorBy('source')
+       // .linkColor(() => 'rgba(255,255,255,0.2)')
+        .linkDirectionalParticles(1)
+
+
+    });
+
+  </script>
+
+</body>
+</html>
