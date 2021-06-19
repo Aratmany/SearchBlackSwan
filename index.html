@@ -23,6 +23,9 @@
             target: Math.round(Math.random() * (id-1))
           }))
       };
+      
+
+
     fetch('http://a0537314.xsph.ru/fakeplaceholder.json').then(res => res.json()).then(data => {
       const Graph = ForceGraph()
       (document.getElementById('graph'))
@@ -38,6 +41,10 @@
         .linkAutoColorBy('source')
        // .linkColor(() => 'rgba(255,255,255,0.2)')
         .linkDirectionalParticles(1)
+        .onNodeDragEnd(node => {
+        node.fx = node.x;
+        node.fy = node.y;
+      });
 
 
     });
