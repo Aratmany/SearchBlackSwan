@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/libs.bundle.css" />
+    <link rel="stylesheet" href="assets/css/theme.bundle.css" id="stylesheetLight" />
+    <link rel="stylesheet" href="assets/css/theme-dark.bundle.css" id="stylesheetDark" />
+    <link rel="stylesheet" href="dist/app.css">
+    <script src="dist/app.js"></script>
+    
+    <style>
+    body { display: none; }
+    canvas {background: rgb(220, 223, 231)}
+    </style>
+    
+    <!-- Title -->
+    <title>SearchBlackSwan</title>
+    
+  </head>
+  <body>
+
+    <!-- MODALS -->
+
+    
+
+    <!-- OFFCANVAS -->
+      <!-- Offcanvas: Demo -->
+      <div class="offcanvas offcanvas-end" id="offcanvasDemo" tabindex="-1">
+        <div class="offcanvas-body">
+      
+          <!-- Close -->
+          <a class="btn-close" href="index.html#" data-bs-dismiss="offcanvas" aria-label="Close"></a>
+      
+          <!-- Image -->
+          <div class="text-center">
+            <img src="assets/img/illustrations/preive.svg" alt="..." class="img-fluid mb-3">
+          </div>
+      
+          <!-- Heading -->
+          <h2 class="text-center mb-2">
+            Выберите желаемые опции
+          </h2>
+      
+          <!-- Text -->
+          <p class="text-center mb-4">
+            Установите параметры, которые будут использованы при генерации отчета.
+          </p>
+      
+          <!-- Divider -->
+          <hr class="mb-4">
+      
+          <!-- Heading -->
+          <h4 class="mb-1">
+            Опция 1
+          </h4>
+      
+          <!-- Text -->
+          <p class="small text-muted mb-3">
+            Описание
+          </p>
+      
+          <!-- Button group -->
+          <div class="btn-group-toggle row gx-2 mb-4">
+            <div class="col">
+              <input class="btn-check" name="colorScheme" id="colorSchemeLight" type="radio" value="light">
+              <label class="btn w-100 btn-white" for="colorSchemeLight">
+                Вариант 1
+              </label>
+            </div>
+            <div class="col">
+              <input class="btn-check" name="colorScheme" id="colorSchemeDark" type="radio" value="dark">
+              <label class="btn w-100 btn-white" for="colorSchemeDark">
+                 Вариант 2
+              </label>
+            </div>
+          </div>
+      
+          <!-- Heading -->
+          <h4 class="mb-1">
+            Опция 2
+          </h4>
+      
+          <!-- Text -->
+          <p class="small text-muted mb-3">
+            Описание
+          </p>
+      
+          <!-- Button group -->
+          <div class="btn-group-toggle row gx-2 mb-4">
+            <div class="col">
+              <input class="btn-check" name="navPosition" id="navPositionSidenav" type="radio" value="sidenav">
+              <label class="btn w-100 btn-white" for="navPositionSidenav">
+                Вариант 1
+              </label>
+            </div>
+            <div class="col">
+              <input class="btn-check" name="navPosition" id="navPositionTopnav" type="radio" value="topnav">
+              <label class="btn w-100 btn-white" for="navPositionTopnav">
+                Вариант 2
+              </label>
+            </div>
+            <div class="col">
+              <input class="btn-check" name="navPosition" id="navPositionCombo" type="radio" value="combo">
+              <label class="btn w-100 btn-white" for="navPositionCombo">
+                Вариант 3
+              </label>
+            </div>
+          </div>
+      
+          <!-- Collapse -->
+          <div id="sidebarSizeContainer">
+      
+            <!-- Heading -->
+            <h4 class="mb-1">
+              Опция 3
+            </h4>
+      
+            <!-- Text -->
+            <p class="small text-muted mb-3">
+              Описание
+            </p>
+      
+            <!-- Button group -->
+            <div class="btn-group-toggle row gx-2 mb-4">
+              <div class="col">
+                <input class="btn-check" name="sidebarSize" id="sidebarSizeBase" type="radio" value="base">
+                <label class="btn w-100 btn-white" for="sidebarSizeBase">
+                  Вариант 1
+                </label>
+              </div>
+              <div class="col">
+                <input class="btn-check" name="sidebarSize" id="sidebarSizeSmall" type="radio" value="small">
+                <label class="btn w-100 btn-white" for="sidebarSizeSmall">
+                  Вариант 2
+                </label>
+              </div>
+            </div>
+      
+          </div>
+      
+          <!-- Heading -->
+          <h4 class="mb-1">
+            Опция 4
+          </h4>
+      
+          <!-- Text -->
+          <p class="small text-muted mb-3">
+            Описание
+          </p>
+      
+          <!-- Button group -->
+          <div class="btn-group-toggle row gx-2">
+            <div class="col">
+              <input class="btn-check" name="navColor" id="navColorDefault" type="radio" value="default">
+              <label class="btn w-100 btn-white" for="navColorDefault">
+                Вариант 1
+              </label>
+            </div>
+            <div class="col">
+              <input class="btn-check" name="navColor" id="navColorInverted" type="radio" value="inverted">
+              <label class="btn w-100 btn-white" for="navColorInverted">
+                Вариант 2
+              </label>
+            </div>
+            <div class="col">
+              <input class="btn-check" name="navColor" id="navColorVibrant" type="radio" value="vibrant">
+              <label class="btn w-100 btn-white" for="navColorVibrant">
+                Вариант 3
+              </label>
+            </div>
+          </div>
+      
+        </div>
+        <div class="offcanvas-header">
+      
+          <!-- Button -->
+          <button class="btn w-100 btn-primary mt-auto" >
+            Сгенерировать график
+          </button>
+      
+        </div>
+      </div>
+    
+
+    <!-- Offcanvas: Activity -->
+    <div class="offcanvas offcanvas-start" id="sidebarOffcanvasActivity" tabindex="-1">
+      <div class="offcanvas-header">
+    
+    
+      </div>
+  
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-vertical fixed-start navbar-expand-md " id="sidebar">
+      <div class="container-fluid">
+    
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarCollapse" aria-controls="sidebarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/logo.svg" class="navbar-brand-img mx-auto" alt="...">
+        </a>
+    
+
+    
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="sidebarCollapse">
+    
+
+          <!-- Navigation -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="result.html">
+                <i class="fe fe-pie-chart"></i> Таблицы и отчеты
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="index.html">
+                <i class="fe fe-bar-chart-2"></i> Графики и диаграммы
+              </a>
+            </li>
+          </ul>
+    
+          <!-- Divider -->
+          <hr class="navbar-divider my-3">
+  
+          <!-- Navigation -->
+          <ul class="navbar-nav mb-md-4">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fe fe-edit"></i> Редактор методологий
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">
+                <i class="fe fe-git-branch"></i> Конвертировать данные
+              </a>
+            </li>
+          </ul>
+    
+                    <!-- Divider -->
+                    <hr class="navbar-divider my-3">
+
+                    <ul class="navbar-nav mb-md-4">
+                      <li class="nav-item">
+                        <a class="nav-link" href="graph1.html">
+                           Граф 1
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="graph2.html">
+                           Граф 2
+                        </a>
+                      </li>
+                    </ul>
+          <!-- Push content down -->
+          <div class="mt-auto"></div>
+    
+            <!-- Customize -->
+            <div id="popoverDemo" data-content="" title="">
+              <a class="btn w-100 btn-primary mb-4" data-bs-toggle="offcanvas" href="index.html#offcanvasDemo" aria-controls="offcanvasDemo">
+                <i class="fe fe-clipboard"></i> Построить график
+              </a>
+            </div>
+    
+
+    
+        </div> <!-- / .navbar-collapse -->
+    
+      </div>
+    </nav>
+    <nav class="navbar navbar-vertical navbar-vertical-sm fixed-start navbar-expand-md " id="sidebarSmall">
+      <div class="container-fluid">
+    
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarSmallCollapse" aria-controls="sidebarSmallCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/logo.svg" class="navbar-brand-img 
+          mx-auto" alt="...">
+        </a>
+    
+
+    
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="sidebarSmallCollapse">
+    
+          <!-- Form -->
+          <form class="mt-4 mb-3 d-md-none">
+            <div class="input-group input-group-rounded input-group-merge input-group-reverse">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+              <div class="input-group-text">
+                <span class="fe fe-search"></span>
+              </div>
+            </div>
+          </form>
+    
+          <!-- Divider -->
+          <hr class="navbar-divider d-none d-md-block mt-0 mb-3">
+    
+
+    
+          <!-- Divider -->
+          <hr class="navbar-divider my-3">
+    
+
+    
+          <!-- Push content down -->
+          <div class="mt-auto"></div>
+    
+    
+        </div> <!-- / .navbar-collapse -->
+    
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg d-none" id="topnav">
+      <div class="container">
+    
+
+
+
+    
+      </div> <!-- / .container -->
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+
+      
+
+      <!-- HEADER -->
+      <div class="header">
+        <div class="container-fluid">
+
+          <!-- Body -->
+          <div class="header-body">
+            <div class="row align-items-end">
+              <div class="col">
+
+                <!-- Pretitle -->
+                <h6 class="header-pretitle">
+                  Консоль
+                </h6>
+
+                <!-- Title -->
+                <h1 class="header-title">
+                  Админ-панель
+                </h1>
+
+              </div>
+              <div class="col-auto">
+
+                <!-- Button -->
+                <a href="index.html#!" class="btn btn-primary lift">
+                  Скачать отчет
+                </a>
+
+              </div>
+            </div> <!-- / .row -->
+          </div> <!-- / .header-body -->
+
+        </div>
+      </div> <!-- / .header -->
+
+      <!-- CARDS -->
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+  
+              <!-- Goals -->
+              <div class="card">
+                <div class="card-header">
+                  <div class="row align-items-center">
+                    <div class="col">
+  
+                      <!-- Title -->
+                      <h4 class="card-header-title">
+                          Пример #2. При клике -> граф раскрывается
+                      </h4>
+                   
+  
+                    </div>
+                    <div class="col-auto">
+  
+                      <!-- Button -->
+                      <a href="index.html#!" class="btn btn-sm btn-white">
+                        Сохранить
+                      </a>
+  
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+                <div class="table-responsive mb-0">
+                  <span class="logo_studio"><img src="AratStudio-logo-officialWhite.svg" alt="AratStudio" width="300px" height="100px"></span>
+                  <div id="graph" style="height: 900px;overflow: hidden; "></div>
+
+                  <script>
+                    const rootId = 0;
+                
+                    const N = 300;
+                    const gData = {
+                      nodes: [...Array(N).keys()].map(i => ({ id: i, collapsed: i !== rootId, childLinks: [] })),
+                      links: [...Array(N).keys()]
+                        .filter(id => id)
+                        .map(id => ({
+                          source: Math.round(Math.random() * (id - 1)),
+                          target: id
+                        }))
+                    };
+                
+                  
+                    const nodesById = Object.fromEntries(gData.nodes.map(node => [node.id, node]));
+                    gData.links.forEach(link => {
+                      nodesById[link.source].childLinks.push(link);
+                    });
+                
+                    const getPrunedTree = () => {
+                      const visibleNodes = [];
+                      const visibleLinks = [];
+                
+                      (function traverseTree(node = nodesById[rootId]) {
+                        visibleNodes.push(node);
+                        if (node.collapsed) return;
+                        visibleLinks.push(...node.childLinks);
+                        node.childLinks
+                          .map(link => ((typeof link.target) === 'object') ? link.target : nodesById[link.target]) 
+                          .forEach(traverseTree);
+                      })(); 
+                
+                      return { nodes: visibleNodes, links: visibleLinks };
+                    };
+                
+                    const elem = document.getElementById('graph');
+                    const Graph = ForceGraph()(elem)
+                      .graphData(getPrunedTree())
+                      .onNodeHover(node => elem.style.cursor = node && node.childLinks.length ? 'pointer' : null)
+                      .onNodeClick(node => {
+                        if (node.childLinks.length) {
+                          node.collapsed = !node.collapsed; 
+                          Graph.graphData(getPrunedTree());
+                        }
+                      })
+                      .linkDirectionalParticles(1)
+                      .linkDirectionalParticleWidth(2.5)
+                      .nodeColor(node => !node.childLinks.length ? 'green' : node.collapsed ? 'red' : 'yellow');
+                  </script>
+                </div>
+              </div>
+  
+            </div>
+          </div> <!-- / .row -->
+  
+
+
+      
+
+
+
+
+      </div>
+
+    </div><!-- / .main-content -->
+
+    <!-- JAVASCRIPT -->
+
+    
+    <!-- Vendor JS -->
+    <script src="assets/js/vendor.bundle.js"></script>
+    
+    <!-- Theme JS -->
+    <script src="assets/js/theme.bundle.js"></script>
+
+  </body>
+</html>

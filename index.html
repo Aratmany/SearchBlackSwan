@@ -1,55 +1,705 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="dist/app.css">
-  <script src="dist/app.js"></script>
-  <title>Поиск черных лебедей</title>
-</head>
-<body>
-  <span class="logo_studio"><img src="AratStudio-logo-officialWhite.svg" alt="AratStudio" width="300px" height="100px"></span>
-  <div id="graph"></div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/libs.bundle.css" />
+    <link rel="stylesheet" href="assets/css/theme.bundle.css" id="stylesheetLight" />
+    <link rel="stylesheet" href="assets/css/theme-dark.bundle.css" id="stylesheetDark" />
+    
+    <style>body { display: none; }</style>
+    
+    <!-- Title -->
+    <title>SearchBlackSwan</title>
+    
+  </head>
+  <body>
 
-  <script>
-      const N = 40;
-      const gData = {
-        nodes: [...Array(N).keys()].map(i => ({ id: i })),
-        links: [...Array(N).keys()]
-          .filter(id => id)
-          .map(id => ({
-            source: id,
-            target: Math.round(Math.random() * (id-1))
-          }))
-      };
+    <!-- MODALS -->
+
+    
+
+    <!-- OFFCANVAS -->
+      <!-- Offcanvas: Demo -->
+      <div class="offcanvas offcanvas-end" id="offcanvasDemo" tabindex="-1">
+        <div class="offcanvas-body">
+      
+          <!-- Close -->
+          <a class="btn-close" href="index.html#" data-bs-dismiss="offcanvas" aria-label="Close"></a>
+      
+          <!-- Image -->
+          <div class="text-center">
+            <img src="assets/img/illustrations/preive.svg" alt="..." class="img-fluid mb-3">
+          </div>
+      
+          <!-- Heading -->
+          <h2 class="text-center mb-2">
+            Выберите желаемые опции
+          </h2>
+      
+          <!-- Text -->
+          <p class="text-center mb-4">
+            Установите параметры, которые будут использованы при генерации отчета.
+          </p>
+      
+          <!-- Divider -->
+          <hr class="mb-4">
+      
+          <!-- Heading -->
+          <h4 class="mb-1">
+            Опция 1
+          </h4>
+      
+          <!-- Text -->
+          <p class="small text-muted mb-3">
+            Описание
+          </p>
+      
+          <!-- Button group -->
+          <div class="btn-group-toggle row gx-2 mb-4">
+            <div class="col">
+              <input class="btn-check" name="colorScheme" id="colorSchemeLight" type="radio" value="light">
+              <label class="btn w-100 btn-white" for="colorSchemeLight">
+                Вариант 1
+              </label>
+            </div>
+            <div class="col">
+              <input class="btn-check" name="colorScheme" id="colorSchemeDark" type="radio" value="dark">
+              <label class="btn w-100 btn-white" for="colorSchemeDark">
+                 Вариант 2
+              </label>
+            </div>
+          </div>
+      
+          <!-- Heading -->
+          <h4 class="mb-1">
+            Опция 2
+          </h4>
+      
+          <!-- Text -->
+          <p class="small text-muted mb-3">
+            Описание
+          </p>
+      
+          <!-- Button group -->
+          <div class="btn-group-toggle row gx-2 mb-4">
+            <div class="col">
+              <input class="btn-check" name="navPosition" id="navPositionSidenav" type="radio" value="sidenav">
+              <label class="btn w-100 btn-white" for="navPositionSidenav">
+                Вариант 1
+              </label>
+            </div>
+            <div class="col">
+              <input class="btn-check" name="navPosition" id="navPositionTopnav" type="radio" value="topnav">
+              <label class="btn w-100 btn-white" for="navPositionTopnav">
+                Вариант 2
+              </label>
+            </div>
+            <div class="col">
+              <input class="btn-check" name="navPosition" id="navPositionCombo" type="radio" value="combo">
+              <label class="btn w-100 btn-white" for="navPositionCombo">
+                Вариант 3
+              </label>
+            </div>
+          </div>
+      
+          <!-- Collapse -->
+          <div id="sidebarSizeContainer">
+      
+            <!-- Heading -->
+            <h4 class="mb-1">
+              Опция 3
+            </h4>
+      
+            <!-- Text -->
+            <p class="small text-muted mb-3">
+              Описание
+            </p>
+      
+            <!-- Button group -->
+            <div class="btn-group-toggle row gx-2 mb-4">
+              <div class="col">
+                <input class="btn-check" name="sidebarSize" id="sidebarSizeBase" type="radio" value="base">
+                <label class="btn w-100 btn-white" for="sidebarSizeBase">
+                  Вариант 1
+                </label>
+              </div>
+              <div class="col">
+                <input class="btn-check" name="sidebarSize" id="sidebarSizeSmall" type="radio" value="small">
+                <label class="btn w-100 btn-white" for="sidebarSizeSmall">
+                  Вариант 2
+                </label>
+              </div>
+            </div>
+      
+          </div>
+      
+          <!-- Heading -->
+          <h4 class="mb-1">
+            Опция 4
+          </h4>
+      
+          <!-- Text -->
+          <p class="small text-muted mb-3">
+            Описание
+          </p>
+      
+          <!-- Button group -->
+          <div class="btn-group-toggle row gx-2">
+            <div class="col">
+              <input class="btn-check" name="navColor" id="navColorDefault" type="radio" value="default">
+              <label class="btn w-100 btn-white" for="navColorDefault">
+                Вариант 1
+              </label>
+            </div>
+            <div class="col">
+              <input class="btn-check" name="navColor" id="navColorInverted" type="radio" value="inverted">
+              <label class="btn w-100 btn-white" for="navColorInverted">
+                Вариант 2
+              </label>
+            </div>
+            <div class="col">
+              <input class="btn-check" name="navColor" id="navColorVibrant" type="radio" value="vibrant">
+              <label class="btn w-100 btn-white" for="navColorVibrant">
+                Вариант 3
+              </label>
+            </div>
+          </div>
+      
+        </div>
+        <div class="offcanvas-header">
+      
+          <!-- Button -->
+          <button class="btn w-100 btn-primary mt-auto" >
+            Сгенерировать отчет
+          </button>
+      
+        </div>
+      </div>
+    
+
+    <!-- Offcanvas: Activity -->
+    <div class="offcanvas offcanvas-start" id="sidebarOffcanvasActivity" tabindex="-1">
+      <div class="offcanvas-header">
+    
+    
+      </div>
+  
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-vertical fixed-start navbar-expand-md " id="sidebar">
+      <div class="container-fluid">
+    
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarCollapse" aria-controls="sidebarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/logo.svg" class="navbar-brand-img mx-auto" alt="...">
+        </a>
+    
+
+    
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="sidebarCollapse">
+    
+
+          <!-- Navigation -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="result.html">
+                <i class="fe fe-pie-chart"></i> Таблицы и отчеты
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="index.html">
+                <i class="fe fe-bar-chart-2"></i> Графики и диаграммы
+              </a>
+            </li>
+          </ul>
+    
+          <!-- Divider -->
+          <hr class="navbar-divider my-3">
+  
+          <!-- Navigation -->
+          <ul class="navbar-nav mb-md-4">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fe fe-edit"></i> Редактор методологий
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">
+                <i class="fe fe-git-branch"></i> Конвертировать данные
+              </a>
+            </li>
+          </ul>
+
+          <!-- Divider -->
+          <hr class="navbar-divider my-3">
+
+          <ul class="navbar-nav mb-md-4">
+            <li class="nav-item">
+              <a class="nav-link" href="graph1.html">
+                 Граф 1
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="graph2.html">
+                 Граф 2
+              </a>
+            </li>
+          </ul>
+    
+          <!-- Push content down -->
+          <div class="mt-auto"></div>
+    
+            <!-- Customize -->
+            <div id="popoverDemo" data-content="" title="">
+              <a class="btn w-100 btn-primary mb-4" data-bs-toggle="offcanvas" href="index.html#offcanvasDemo" aria-controls="offcanvasDemo">
+                <i class="fe fe-clipboard"></i> Построить отчет
+              </a>
+            </div>
+    
+
+    
+        </div> <!-- / .navbar-collapse -->
+    
+      </div>
+    </nav>
+    <nav class="navbar navbar-vertical navbar-vertical-sm fixed-start navbar-expand-md " id="sidebarSmall">
+      <div class="container-fluid">
+    
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarSmallCollapse" aria-controls="sidebarSmallCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/logo.svg" class="navbar-brand-img 
+          mx-auto" alt="...">
+        </a>
+    
+
+    
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="sidebarSmallCollapse">
+    
+          <!-- Form -->
+          <form class="mt-4 mb-3 d-md-none">
+            <div class="input-group input-group-rounded input-group-merge input-group-reverse">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+              <div class="input-group-text">
+                <span class="fe fe-search"></span>
+              </div>
+            </div>
+          </form>
+    
+          <!-- Divider -->
+          <hr class="navbar-divider d-none d-md-block mt-0 mb-3">
+    
+
+    
+          <!-- Divider -->
+          <hr class="navbar-divider my-3">
+    
+
+    
+          <!-- Push content down -->
+          <div class="mt-auto"></div>
+    
+    
+        </div> <!-- / .navbar-collapse -->
+    
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg d-none" id="topnav">
+      <div class="container">
+    
+
+
+
+    
+      </div> <!-- / .container -->
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+
       
 
+      <!-- HEADER -->
+      <div class="header">
+        <div class="container-fluid">
 
-    fetch('http://a0537314.xsph.ru/fakeplaceholder.json').then(res => res.json()).then(data => {
-      const Graph = ForceGraph()
-      (document.getElementById('graph'))
-        .graphData(data)
-        .nodeId('id')
-        .nodeVal('val')
-        .nodeLabel('id')
-        .nodeAutoColorBy('group')
-        .linkSource('source')
-        .linkTarget('target')
-        .linkDirectionalParticles("value")
-        //.linkDirectionalParticleSpeed(d => d.value * 0.001)
-        .linkAutoColorBy('source')
-       // .linkColor(() => 'rgba(255,255,255,0.2)')
-        .linkDirectionalParticles(1)
-        .onNodeDragEnd(node => {
-        node.fx = node.x;
-        node.fy = node.y;
-      });
+          <!-- Body -->
+          <div class="header-body">
+            <div class="row align-items-end">
+              <div class="col">
+
+                <!-- Pretitle -->
+                <h6 class="header-pretitle">
+                  Консоль
+                </h6>
+
+                <!-- Title -->
+                <h1 class="header-title">
+                  Админ-панель
+                </h1>
+
+              </div>
+              <div class="col-auto">
+
+                <!-- Button -->
+                <a href="index.html#!" class="btn btn-primary lift">
+                  Скачать отчет
+                </a>
+
+              </div>
+            </div> <!-- / .row -->
+          </div> <!-- / .header-body -->
+
+        </div>
+      </div> <!-- / .header -->
+
+      <!-- CARDS -->
+      <div class="container-fluid">
+        
+        <div class="row">
+          <div class="col-12 col-xl-8">
+
+            <!-- Convertions -->
+            <div class="card">
+              <div class="card-header">
+
+                <!-- Title -->
+                <h4 class="card-header-title">
+                  Авторских разработок
+                </h4>
+
+                <!-- Caption -->
+                <span class="text-muted me-3">
+                  Сравнить с прошлым годом:
+                </span>
+
+                <!-- Switch -->
+                <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" id="cardToggle" data-toggle="chart" data-target="#conversionsChart" data-trigger="change" data-action="add" data-dataset="1" />
+                  <label class="form-check-label" for="cardToggle"></label>
+                </div>
+
+              </div>
+              <div class="card-body">
+
+                <!-- Chart -->
+                <div class="chart">
+                  <canvas id="conversionsChart" class="chart-canvas"></canvas>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-4">
+
+            <!-- Traffic -->
+            <div class="card">
+              <div class="card-header">
+
+                <!-- Title -->
+                <h4 class="card-header-title">
+                  Доля на технологическом рынке
+(проекты на финансировании в ...
+                </h4>
+
+                <!-- Tabs -->
+                <ul class="nav nav-tabs nav-tabs-sm card-header-tabs">
+                  <li class="nav-item" data-toggle="chart" data-target="#trafficChart" data-trigger="click" data-action="toggle" data-dataset="0">
+                    <a href="index.html#" class="nav-link active" data-bs-toggle="tab">
+                      Все
+                    </a>
+                  </li>
+
+                </ul>
+
+              </div>
+              <div class="card-body">
+
+                <!-- Chart -->
+                <div class="chart chart-appended">
+                  <canvas id="trafficChart" class="chart-canvas" data-toggle="legend" data-target="#trafficChartLegend"></canvas>
+                </div>
+
+                <!-- Legend -->
+                <div id="trafficChartLegend" class="chart-legend"></div>
+
+              </div>
+            </div>
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12 col-xl-4">
+
+            <!-- Projects -->
+            <div class="card card-fill">
+              <div class="card-header">
+
+                <!-- Title -->
+                <h4 class="card-header-title">
+                  Инвестиционный план
+                </h4>
+
+                <!-- Link -->
+                <a href="#" class="small">Посмотреть все</a>
+
+              </div>
+              <div class="card-body">
+
+                <!-- List group -->
+                <div class="list-group list-group-flush my-n3">
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="#" class="avatar avatar-4by3">
+                          <img src="https://support.content.office.net/ru-ru/media/fd5cf9e1-869f-49a3-a29e-476a68a41fac.png" alt="..." class="avatar-img rounded">
+                        </a>
+
+                      </div>
+                      <div class="col ms-n2">
+
+                        <!-- Title -->
+                        <h4 class="mb-1">
+                          <a href="#">Современные
+                            агротехнологии
+                            </a>
+                        </h4>
+
+                        <!-- Time -->
+                        <p class="card-text small text-muted">
+                          <time datetime="2021-06-19">Обновлено 4 часа назад</time>
+                        </p>
+
+                      </div>
+                      <div class="col-auto">
+
+                             <!-- Dropdown -->
+                             <div class="dropdown">
+                              <a href="index.html#" class="dropdown-ellipses dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fe fe-more-vertical"></i>
+                              </a>
+                              <div class="dropdown-menu dropdown-menu-end">
+                                <a href="index.html#!" class="dropdown-item">
+                                  Действие
+                                </a>
+                                <a href="index.html#!" class="dropdown-item">
+                                  Другое действие
+                                </a>
+                              </div>
+                            </div>
+
+                      </div>
+                    </div> <!-- / .row -->
+                  </div>
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="#" class="avatar avatar-4by3">
+                          <img src="https://support.content.office.net/ru-ru/media/c89ee96a-e6eb-443d-8f17-2c7d813f3fde.png" alt="..." class="avatar-img rounded">
+                        </a>
+
+                      </div>
+                      <div class="col ms-n2">
+
+                        <!-- Title -->
+                        <h4 class="mb-1">
+                          <a href="#">3D-моделирование в
+                            геодезии города</a>
+                        </h4>
+
+                        <!-- Time -->
+                        <p class="card-text small text-muted">
+                          <time datetime="2021-06-19">Обновлено 2 часа назад</time>
+                        </p>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                          <a href="index.html#" class="dropdown-ellipses dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fe fe-more-vertical"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-end">
+                            <a href="index.html#!" class="dropdown-item">
+                              Действие
+                            </a>
+                            <a href="index.html#!" class="dropdown-item">
+                              Другое действие
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div> <!-- / .row -->
+                  </div>
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="#" class="avatar avatar-4by3">
+                          <img src="https://raw.githubusercontent.com/DanielChappuis/reactphysics3d/master/documentation/UserManual/images/testbed.png" alt="..." class="avatar-img rounded">
+                        </a>
+
+                      </div>
+                      <div class="col ms-n2">
+
+                        <!-- Title -->
+                        <h4 class="mb-1">
+                          <a href="#">Физика твердого тела
+                            (фундаментальное)</a>
+                        </h4>
+
+                        <!-- Time -->
+                        <p class="card-text small text-muted">
+                          <time datetime="2021-06-19">Обновлено 2 часа назад</time>
+                        </p>
+
+                      </div>
+                      <div class="col-auto">
+
+                             <!-- Dropdown -->
+                             <div class="dropdown">
+                              <a href="index.html#" class="dropdown-ellipses dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fe fe-more-vertical"></i>
+                              </a>
+                              <div class="dropdown-menu dropdown-menu-end">
+                                <a href="index.html#!" class="dropdown-item">
+                                  Действие
+                                </a>
+                                <a href="index.html#!" class="dropdown-item">
+                                  Другое действие
+                                </a>
+                              </div>
+                            </div>
+
+                      </div>
+                    </div> <!-- / .row -->
+                  </div>
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="#" class="avatar avatar-4by3">
+                          <img src="http://www.pmservices.ru/wp-content/uploads/2015/04/Sensei_Schedule_Analyzer_figure_1-e1466495454925.jpg" alt="..." class="avatar-img rounded">
+                        </a>
+
+                      </div>
+                      <div class="col ms-n2">
+
+                        <!-- Title -->
+                        <h4 class="mb-1">
+                          <a href="#">Инновационные приемы
+                            управления бизнесом</a>
+                        </h4>
+
+                        <!-- Time -->
+                        <p class="card-text small text-muted">
+                          <time datetime="2021-06-19">Обновлено 2 часа назад</time>
+                        </p>
+
+                      </div>
+                      <div class="col-auto">
+
+                              <!-- Dropdown -->
+                              <div class="dropdown">
+                                <a href="index.html#" class="dropdown-ellipses dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <i class="fe fe-more-vertical"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end">
+                                  <a href="index.html#!" class="dropdown-item">
+                                    Действие
+                                  </a>
+                                  <a href="index.html#!" class="dropdown-item">
+                                    Другое действие
+                                  </a>
+                                </div>
+                              </div>
+
+                      </div>
+                    </div> <!-- / .row -->
+                  </div>
+                </div>
+
+              </div> <!-- / .card-body -->
+            </div> <!-- / .card -->
+          </div>
+          <div class="col-12 col-xl-8">
+
+            <!-- Sales -->
+            <div class="card">
+              <div class="card-header">
+
+                <!-- Title -->
+                <h4 class="card-header-title">
+                  Патентов получено
+                </h4>
+
+                <!-- Nav -->
+                <ul class="nav nav-tabs nav-tabs-sm card-header-tabs">
+                  <li class="nav-item" data-toggle="chart" data-target="#salesChart" data-trigger="click" data-action="toggle" data-dataset="0">
+                    <a class="nav-link active" href="index.html#" data-bs-toggle="tab">
+                      Все
+                    </a>
+                  </li>
+                  <li class="nav-item" data-toggle="chart" data-target="#salesChart" data-trigger="click" data-action="toggle" data-dataset="1">
+                    <a class="nav-link" href="index.html#" data-bs-toggle="tab">
+                      2021 год, 1-2 квартал
+                    </a>
+                  </li>
+                  <li class="nav-item" data-toggle="chart" data-target="#salesChart" data-trigger="click" data-action="toggle" data-dataset="2">
+                    <a class="nav-link" href="index.html#" data-bs-toggle="tab">
+                      2020 год
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="card-body">
+
+                <!-- Chart -->
+                <div class="chart">
+                  <canvas id="salesChart" class="chart-canvas"></canvas>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
 
 
-    });
+      </div>
 
-  </script>
+    </div><!-- / .main-content -->
 
-</body>
+    <!-- JAVASCRIPT -->
+
+    
+    <!-- Vendor JS -->
+    <script src="assets/js/vendor.bundle.js"></script>
+    
+    <!-- Theme JS -->
+    <script src="assets/js/theme.bundle.js"></script>
+
+  </body>
 </html>
