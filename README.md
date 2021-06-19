@@ -34,6 +34,11 @@ yarn install
 
 ##Либо скачать весь архив и запустить index.html
 `<Ссылка на архив >` : <https://drive.google.com/drive/folders/1mvUn69uihzl83e-do8lsF34kPobZQjGH?usp=sharing>
+
+![](https://github.com/Aratmany/SearchBlackSwan/blob/main/Screenshot_17.png)
+Возможно будет проблема CORS -> В целях безопасности браузеры ограничивают cross-origin запросы, инициируемые скриптами. 
+=============
+Cross-Origin Resource Sharing (CORS) — механизм, использующий дополнительные HTTP-заголовки, чтобы дать возможность агенту пользователя получать разрешения на доступ к выбранным ресурсам с сервера на источнике (домене), отличном от того, что сайт использует в данный момент. 
                 
 
 
