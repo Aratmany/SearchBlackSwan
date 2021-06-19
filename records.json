@@ -1,568 +1,3476 @@
-﻿[
+﻿{
+  "nodes": 
+[
   {
     "n": {
-"identity": 97,
+"identity": 1261,
 "labels": [
-        "Dead",
-        "Knight",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 4.224368686974048,
-"wcc_partition": 3,
-"gender": "male",
-"death_year": 300,
-"pageRank-1": 1.325643085036427,
-"community": 736,
-"title": "Ser",
-"birth_year": 265,
-"book_death_chapter": "72",
-"book_intro_chapter": "29",
-"name": "Gregor Clegane",
-"book_of_death": "4",
-"age": 35
+"venue": "2012 11th International Conference …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 0,
+"louvainByPaper": 0,
+"wccByPaper": 0
+      }
+    },
+    "p": {
+"identity": 1191,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 2,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Can frequent itemset mining be efficiently and effectively used for learning from graph data?",
+"betweennessByCite": 0.0,
+"louvainByCite": 2,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1186,
+"start": 1191,
+"end": 1261,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 98,
+"identity": 1262,
 "labels": [
-        "Dead",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 0.15000000000000002,
-"wcc_partition": 4,
-"gender": "male",
-"death_year": 298,
-"name": "Andros Brax",
-"pageRank-1": 0.15000000000000002,
-"community": 98,
-"title": "Hornvale"
+"venue": "ACS …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 1,
+"louvainByPaper": 1,
+"wccByPaper": 1
+      }
+    },
+    "p": {
+"identity": 1235,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 8,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Recommender systems in antiviral drug discovery",
+"betweennessByCite": 0.0,
+"louvainByCite": 114,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1228,
+"start": 1235,
+"end": 1262,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 101,
+"identity": 1263,
 "labels": [
-        "Dead",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 0.15000000000000002,
-"book_death_chapter": "30",
-"wcc_partition": 5,
-"gender": "male",
-"book_intro_chapter": "53",
-"death_year": 299,
-"name": "Medger Cerwyn",
-"book_of_death": "2",
-"pageRank-1": 0.15000000000000002,
-"title": "Cerwyn",
-"community": 101
+"venue": "3rd Skövde Workshop on …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 2,
+"louvainByPaper": 2,
+"wccByPaper": 2
+      }
+    },
+    "p": {
+"identity": 1215,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 3,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Generating comprehensible QSAR models",
+"betweennessByCite": 0.0,
+"louvainByCite": 3,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1208,
+"start": 1215,
+"end": 1263,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 103,
+"identity": 1264,
 "labels": [
-        "Dead",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 0.22117681563831867,
-"book_death_chapter": "62",
-"wcc_partition": 5,
-"gender": "male",
-"book_intro_chapter": "53",
-"death_year": 298,
-"name": "Halys Hornwood",
-"book_of_death": "1",
-"pageRank-1": 0.15000000000000002,
-"title": "Hornwood",
-"community": 110
+"venue": "5th International Conference …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 3,
+"louvainByPaper": 3,
+"wccByPaper": 3
+      }
+    },
+    "p": {
+"identity": 1209,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 3,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Evaluating Algorithms for Concept Description",
+"betweennessByCite": 0.0,
+"louvainByCite": 3,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1202,
+"start": 1209,
+"end": 1264,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 104,
+"identity": 1265,
 "labels": [
-        "Dead",
-        "King",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 10.819953513145444,
-"book_death_chapter": "51",
-"wcc_partition": 10,
-"gender": "male",
-"book_intro_chapter": "1",
-"name": "Robb Stark",
-"book_of_death": "3",
-"pageRank-1": 3.8749934513121844,
-"community": 155
+"venue": "Acta Crystallographica Section …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 4,
+"louvainByPaper": 4,
+"wccByPaper": 4
+      }
+    },
+    "p": {
+"identity": 1174,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 16,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "(E)-2, 3-Bis (4-methoxyphenyl) acrylic acid",
+"betweennessByCite": 0.0,
+"louvainByCite": 16,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1169,
+"start": 1174,
+"end": 1265,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 110,
+"identity": 1266,
 "labels": [
-        "Dead",
-        "Knight",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 3.1201196020469064,
-"book_death_chapter": "66",
-"wcc_partition": 5,
-"gender": "male",
-"book_intro_chapter": "7",
-"death_year": 299,
-"name": "Rodrik Cassel",
-"book_of_death": "2",
-"pageRank-1": 1.9559912639670072,
-"community": 155,
-"title": "Ser"
+"venue": "Angewandte Chemie",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 5,
+"louvainByPaper": 5,
+"wccByPaper": 5
+      }
+    },
+    "p": {
+"identity": 1206,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 1,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Donor‐acceptor‐substituierte cyclische π‐Elektronensysteme‐Prüfsteine für Theorien und Bausteine für neue Materialien",
+"betweennessByCite": 0.0,
+"louvainByCite": 1,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1199,
+"start": 1206,
+"end": 1266,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 111,
+"identity": 1267,
 "labels": [
-        "Dead",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 0.3871685551595873,
-"wcc_partition": 5,
-"gender": "male",
-"death_year": 299,
-"pageRank-1": 0.15000000000000002,
-"title": "Cerwyn",
-"community": 155,
-"birth_year": 284,
-"book_death_chapter": "66",
-"book_intro_chapter": "16",
-"name": "Cley Cerwyn",
-"book_of_death": "2",
-"age": 15
+"venue": "Advances in Protein …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 6,
+"louvainByPaper": 6,
+"wccByPaper": 6
+      }
+    },
+    "p": {
+"identity": 1216,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 0,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "In silico tools to study molecular targets of neglected diseases: inhibition of TcSir2rp3, an epigenetic enzyme of Trypanosoma cruzi.",
+"betweennessByCite": 0.0,
+"louvainByCite": 0,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1210,
+"start": 1216,
+"end": 1267,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 116,
+"identity": 1268,
 "labels": [
-        "Dead",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 6.523247641697526,
-"wcc_partition": 22,
-"gender": "male",
-"death_year": 300,
-"pageRank-1": 2.422647416964173,
-"community": 304,
-"title": "Casterly Rock",
-"birth_year": 242,
-"book_death_chapter": "77",
-"book_intro_chapter": "42",
-"name": "Tywin Lannister",
-"book_of_death": "3",
-"age": 58
+"venue": "Acta chemica Scandinavica. Series B …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 7,
+"louvainByPaper": 7,
+"wccByPaper": 7
+      }
+    },
+    "p": {
+"identity": 961,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 1,
+"pagerankByCites": 0.66,
+"pagerankByJournal": 0.15000000000000002,
+"title": "On the Relation Between the Frontier Orbitals in Small Rings, Macrocyclic Compounds, and Linear Polymers with Extended π Systems.",
+"betweennessByCite": 4.0,
+"louvainByCite": 1,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1221,
+"start": 961,
+"end": 1268,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 120,
+"identity": 1269,
 "labels": [
-        "Dead",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 0.2155574555537896,
-"book_death_chapter": "45",
-"wcc_partition": 26,
-"gender": "male",
-"book_intro_chapter": "62",
-"death_year": 299,
-"name": "Leo Lefford",
-"book_of_death": "2",
-"pageRank-1": 0.25958421322284275,
-"title": "Golden Tooth",
-"community": 167
+"venue": "Angewandte Chemie International …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 8,
+"louvainByPaper": 8,
+"wccByPaper": 8
+      }
+    },
+    "p": {
+"identity": 1204,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 1,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Donor‐Acceptor‐Substituted Cyclic π‐Electron Systems—Probes for Theories and Building Blocks for New Materials",
+"betweennessByCite": 0.0,
+"louvainByCite": 1,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1198,
+"start": 1204,
+"end": 1269,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 121,
+"identity": 1270,
 "labels": [
-        "Dead",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 1.191592799080536,
-"book_death_chapter": "20",
-"wcc_partition": 27,
-"gender": "male",
-"book_intro_chapter": "30",
-"death_year": 300,
-"name": "Vargo Hoat",
-"book_of_death": "3",
-"pageRank-1": 0.15000000000000002,
-"title": "Lord of Harrenhal",
-"community": 304
+"venue": "Biomedicine & Pharmacotherapy",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 9,
+"louvainByPaper": 9,
+"wccByPaper": 9
+      }
+    },
+    "p": {
+"identity": 1210,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 10,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Existing highly accumulating lysosomotropic drugs with potential for repurposing to target COVID-19",
+"betweennessByCite": 0.0,
+"louvainByCite": 14,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1203,
+"start": 1210,
+"end": 1270,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 123,
+"identity": 1271,
 "labels": [
-        "Dead",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 0.2910396298218984,
-"book_death_chapter": "51",
-"wcc_partition": 5,
-"gender": "male",
-"book_intro_chapter": "63",
-"death_year": 299,
-"name": "Jon Umber (Smalljon)",
-"book_of_death": "3",
-"pageRank-1": 0.15000000000000002,
-"community": 155
+"venue": "CNS neuroscience & therapeutics",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 10,
+"louvainByPaper": 10,
+"wccByPaper": 10
+      }
+    },
+    "p": {
+"identity": 1181,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 12,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "A review of the discovery, pharmacological characterization, and behavioral effects of the dopamine D2‐like receptor antagonist eticlopride",
+"betweennessByCite": 0.0,
+"louvainByCite": 12,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1174,
+"start": 1181,
+"end": 1271,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 125,
+"identity": 1272,
 "labels": [
-        "Dead",
-        "Knight",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 0.24057631134346588,
-"book_death_chapter": "4",
-"wcc_partition": 31,
-"gender": "male",
-"book_intro_chapter": "58",
-"death_year": 299,
-"name": "Imry Florent",
-"book_of_death": "3",
-"pageRank-1": 0.15000000000000002,
-"community": 115,
-"title": "Ser"
+"venue": "Bioorganic …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 11,
+"louvainByPaper": 11,
+"wccByPaper": 11
+      }
+    },
+    "p": {
+"identity": 1240,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 11,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Synthesis and anticancer evaluation of 6-azacyclonol-2, 4, 6-trimethylpyridin-3-ol derivatives: M3 muscarinic acetylcholine receptor-mediated anticancer activity of a …",
+"betweennessByCite": 0.0,
+"louvainByCite": 11,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1235,
+"start": 1240,
+"end": 1272,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 126,
+"identity": 1273,
 "labels": [
-        "Dead",
-        "Knight",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 0.3472236930800136,
-"wcc_partition": 32,
-"gender": "male",
-"death_year": 299,
-"pageRank-1": 0.15000000000000002,
-"title": "Ser",
-"community": 160,
-"birth_year": 278,
-"book_death_chapter": "62",
-"book_intro_chapter": "22",
-"name": "Guyard Morrigen",
-"book_of_death": "2",
-"age": 21
+"venue": "Canadian journal of chemistry",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 12,
+"louvainByPaper": 12,
+"wccByPaper": 12
+      }
+    },
+    "p": {
+"identity": 1214,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 17,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "General acid-catalyzed addition of methanol to (E)-N-benzylideneanilines",
+"betweennessByCite": 0.0,
+"louvainByCite": 17,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1207,
+"start": 1214,
+"end": 1273,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 129,
+"identity": 1274,
 "labels": [
-        "Dead",
-        "Knight",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 0.4996285274974071,
-"book_death_chapter": "37",
-"wcc_partition": 5,
-"gender": "male",
-"book_intro_chapter": "55",
-"death_year": 299,
-"name": "Helman Tallhart",
-"book_of_death": "3",
-"pageRank-1": 0.15000000000000002,
-"title": "Ser",
-"community": 115
+"venue": "Chemische …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 13,
+"louvainByPaper": 13,
+"wccByPaper": 13
+      }
+    },
+    "p": {
+"identity": 1220,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 7,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Konkave Makroheterocyclen",
+"louvainByCite": 7,
+"betweennessByCite": 0.0,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1213,
+"start": 1220,
+"end": 1274,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 134,
+"identity": 1275,
 "labels": [
-        "Dead",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 0.9047755184583365,
-"book_death_chapter": "75",
-"wcc_partition": 40,
-"gender": "female",
-"book_intro_chapter": "0",
-"death_year": 300,
-"name": "Harma",
-"book_of_death": "3",
-"pageRank-1": 0.15000000000000002,
-"community": 171
+"venue": "Carbon Rich Compounds I",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 14,
+"louvainByPaper": 14,
+"wccByPaper": 14
+      }
+    },
+    "p": {
+"identity": 1202,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 7,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Design of novel aromatics using the Loschmidt replacement on graphs",
+"betweennessByCite": 0.0,
+"louvainByCite": 7,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1195,
+"start": 1202,
+"end": 1275,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 135,
+"identity": 1276,
 "labels": [
-        "Dead",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 0.15000000000000002,
-"book_death_chapter": "26",
-"wcc_partition": 41,
-"gender": "male",
-"book_intro_chapter": "7",
-"death_year": 300,
-"name": "Magnar Styr",
-"book_of_death": "3",
-"pageRank-1": 0.15000000000000002,
-"community": 135
+"venue": "Chemical Research …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 15,
+"louvainByPaper": 15,
+"wccByPaper": 15
+      }
+    },
+    "p": {
+"identity": 1239,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 8,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Skin Doctor CP: Conformal Prediction of the Skin Sensitization Potential of Small Organic Molecules",
+"betweennessByCite": 0.0,
+"louvainByCite": 114,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1234,
+"start": 1239,
+"end": 1276,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 136,
+"identity": 1277,
 "labels": [
-        "Dead",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 1.231130144209601,
-"book_death_chapter": "0",
-"wcc_partition": 38,
-"gender": "male",
-"book_intro_chapter": "15",
-"death_year": 300,
-"name": "Varamyr",
-"book_of_death": "5",
-"pageRank-1": 0.15000000000000002,
-"community": 171
+"venue": "Chemistry of Heterocyclic …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 16,
+"louvainByPaper": 16,
+"wccByPaper": 16
+      }
+    },
+    "p": {
+"identity": 1241,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 17,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Synthesis and liquid-crystalline properties of derivatives of 5-amino-2-arylpyrimidines of the structurally stabilized anil type",
+"betweennessByCite": 0.0,
+"louvainByCite": 17,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1237,
+"start": 1241,
+"end": 1277,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 138,
+"identity": 1278,
 "labels": [
-        "Dead",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 1.0496359915938231,
-"book_death_chapter": "37",
-"wcc_partition": 44,
-"gender": "male",
-"book_intro_chapter": "1",
-"death_year": 300,
-"name": "Rorge",
-"book_of_death": "4",
-"pageRank-1": 0.15000000000000002,
-"community": 271
+"venue": "Chemistry of …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 17,
+"louvainByPaper": 17,
+"wccByPaper": 17
+      }
+    },
+    "p": {
+"identity": 1243,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 17,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Synthesis of isomeric aminophenylbipyrimidines and study of the liquid crystalline properties of anils structurally related to aminophenylpyrimidines",
+"betweennessByCite": 0.0,
+"louvainByCite": 17,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1238,
+"start": 1243,
+"end": 1278,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 146,
+"identity": 1279,
 "labels": [
-        "Dead",
-        "Knight",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 1.1371997865382582,
-"wcc_partition": 52,
-"gender": "male",
-"death_year": 300,
-"pageRank-1": 0.15000000000000002,
-"community": 304,
-"title": "Ser",
-"birth_year": 246,
-"book_death_chapter": "44",
-"book_intro_chapter": "14",
-"name": "Ryman Frey",
-"book_of_death": "4",
-"age": 54
+"venue": "Chemometrics and Intelligent Laboratory …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 18,
+"louvainByPaper": 18,
+"wccByPaper": 18
+      }
+    },
+    "p": {
+"identity": 1255,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 0,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Towards a systematic analysis of structure-activity relationships of 5-LOX inhibitors through activity landscape and chemotype enrichment",
+"betweennessByCite": 0.0,
+"louvainByCite": 0,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1249,
+"start": 1255,
+"end": 1279,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 150,
+"identity": 1280,
 "labels": [
-        "Dead",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 1.8594819906167683,
-"wcc_partition": 56,
-"gender": "male",
-"death_year": 299,
-"pageRank-1": 0.8507715761428701,
-"community": 923,
-"title": "Lord of Blackhaven",
-"birth_year": 276,
-"book_death_chapter": "27",
-"book_intro_chapter": "42",
-"name": "Beric Dondarrion",
-"book_of_death": "4",
-"age": 23
+"venue": "Croatica Chemica Acta",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 19,
+"louvainByPaper": 19,
+"wccByPaper": 19
+      }
+    },
+    "p": {
+"identity": 1205,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 1,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Dianions from Cyclophanes with Unsaturated Bridges; Cyclic Conjugation in 22-38 n-Electron Perimeter Systems",
+"betweennessByCite": 0.0,
+"louvainByCite": 1,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1196,
+"start": 1205,
+"end": 1280,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 152,
+"identity": 1281,
 "labels": [
-        "Dead",
-        "Knight",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 2.198771212156862,
-"wcc_partition": 58,
-"gender": "male",
-"death_year": 300,
-"pageRank-1": 0.4439902105485089,
-"community": 304,
-"title": "Ser",
-"birth_year": 244,
-"book_intro_chapter": "56",
-"name": "Kevan Lannister",
-"book_of_death": "5",
-"age": 56
+"venue": "Current Computer-Aided …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 20,
+"louvainByPaper": 20,
+"wccByPaper": 20
+      }
+    },
+    "p": {
+"identity": 1232,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 15,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Quantitative sequence-activity model (QSAM): applying QSAR strategy to model and predict bioactivity and function of peptides, proteins and nucleic acids",
+"betweennessByCite": 0.0,
+"louvainByCite": 15,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1227,
+"start": 1232,
+"end": 1281,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 154,
+"identity": 1282,
 "labels": [
-        "Dead",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 0.15000000000000002,
-"wcc_partition": 60,
-"gender": "female",
-"death_year": 299,
-"pageRank-1": 0.15000000000000002,
-"community": 154,
-"title": "Lord of Darry",
-"birth_year": 290,
-"book_death_chapter": "7",
-"book_intro_chapter": "71",
-"name": "Lyman Darry",
-"book_of_death": "3",
-"age": 9
+"venue": "Current Opinion in Chemical Biology",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 21,
+"louvainByPaper": 21,
+"wccByPaper": 21
+      }
+    },
+    "p": {
+"identity": 1244,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 10,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Synthetic biology enabling access to designer polyketides",
+"betweennessByCite": 0.0,
+"louvainByCite": 14,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1239,
+"start": 1244,
+"end": 1282,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 156,
+"identity": 1283,
 "labels": [
-        "Dead",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 0.4502246215124614,
-"book_death_chapter": "66",
-"wcc_partition": 5,
-"gender": "male",
-"book_intro_chapter": "16",
-"death_year": 299,
-"name": "Leobald Tallhart",
-"book_of_death": "2",
-"pageRank-1": 0.15000000000000002,
-"community": 155,
-"title": "Castellan"
+"venue": "Current pharmaceutical design",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 22,
+"louvainByPaper": 22,
+"wccByPaper": 22
+      }
+    },
+    "p": {
+"identity": 1251,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 12,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "The discovery of epidepride and its analogs as high-affinity radioligands for imaging extrastriatal dopamine D2 receptors in human brain",
+"betweennessByCite": 0.0,
+"louvainByCite": 12,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1246,
+"start": 1251,
+"end": 1283,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 157,
+"identity": 1284,
 "labels": [
-        "Dead",
-        "Knight",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 0.4211819480871781,
-"wcc_partition": 51,
-"gender": "male",
-"death_year": 299,
-"name": "Stafford Lannister",
-"pageRank-1": 0.15000000000000002,
-"community": 155,
-"title": "Ser",
-"age": 53,
-"birth_year": 246
+"venue": "Drug Discovery …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 23,
+"louvainByPaper": 23,
+"wccByPaper": 23
+      }
+    },
+    "p": {
+"identity": 1256,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 8,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Uncertainty quantification in drug design",
+"betweennessByCite": 0.0,
+"louvainByCite": 114,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1251,
+"start": 1256,
+"end": 1284,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   },
   {
     "n": {
-"identity": 160,
+"identity": 1285,
 "labels": [
-        "Dead",
-        "King",
-        "Person"
+        "Journal"
       ],
 "properties": {
-"pageRank": 4.907754717580974,
-"wcc_partition": 66,
-"gender": "male",
-"death_year": 299,
-"pageRank-1": 1.8657377611845731,
-"community": 115,
-"title": "Lord Paramount of the Stormlands",
-"birth_year": 277,
-"book_death_chapter": "33",
-"book_intro_chapter": "15",
-"name": "Renly Baratheon",
-"book_of_death": "2",
-"age": 22
+"venue": "Expert Opinion on …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 24,
+"louvainByPaper": 24,
+"wccByPaper": 24
+      }
+    },
+    "p": {
+"identity": 1193,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 11,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Assigning confidence to molecular property prediction",
+"betweennessByCite": 0.0,
+"louvainByCite": 11,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1184,
+"start": 1193,
+"end": 1285,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1286,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Expert Systems with Applications",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 25,
+"louvainByPaper": 25,
+"wccByPaper": 25
+      }
+    },
+    "p": {
+"identity": 1229,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 2,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "PQSAR: The membrane quantitative structure-activity relationships in cheminformatics",
+"betweennessByCite": 0.0,
+"louvainByCite": 2,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1223,
+"start": 1229,
+"end": 1286,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1287,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Ferroelectrics",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 26,
+"louvainByPaper": 26,
+"wccByPaper": 26
+      }
+    },
+    "p": {
+"identity": 1224,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 5,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Molecular interaction between a pair of some smectic and ferroelectric liquid crystals",
+"betweennessByCite": 0.0,
+"louvainByCite": 5,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1217,
+"start": 1224,
+"end": 1287,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1288,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Folia …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 27,
+"louvainByPaper": 27,
+"wccByPaper": 27
+      }
+    },
+    "p": {
+"identity": 1225,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 20,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Neurotoxic effects of acrylamide on dopaminergic neurons in primary mesencephalic cell culture",
+"betweennessByCite": 0.0,
+"louvainByCite": 20,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1218,
+"start": 1225,
+"end": 1288,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1289,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Frontiers in chemistry",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 28,
+"louvainByPaper": 28,
+"wccByPaper": 28
+      }
+    },
+    "p": {
+"identity": 1211,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 0,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Finding constellations in chemical space through core analysis",
+"betweennessByCite": 0.0,
+"louvainByCite": 0,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1205,
+"start": 1211,
+"end": 1289,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1290,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "International Journal of …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 29,
+"louvainByPaper": 29,
+"wccByPaper": 29
+      }
+    },
+    "p": {
+"identity": 1245,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 20,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "The ENDpoiNTs Project: novel testing strategies for endocrine disruptors linked to developmental neurotoxicity",
+"betweennessByCite": 0.0,
+"louvainByCite": 20,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1240,
+"start": 1245,
+"end": 1290,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1291,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "International journal of …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 30,
+"louvainByPaper": 30,
+"wccByPaper": 30
+      }
+    },
+    "p": {
+"identity": 1200,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 4,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Computer-Aided Ligand Discovery for Estrogen Receptor Alpha",
+"betweennessByCite": 0.0,
+"louvainByCite": 4,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1192,
+"start": 1200,
+"end": 1291,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1292,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "International journal of molecular sciences",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 31,
+"louvainByPaper": 31,
+"wccByPaper": 31
+      }
+    },
+    "p": {
+"identity": 962,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 10,
+"pagerankByCites": 0.405,
+"pagerankByJournal": 0.15000000000000002,
+"title": "QSAR models for predicting five levels of cellular accumulation of lysosomotropic macrocycles",
+"betweennessByCite": 1.0,
+"louvainByCite": 14,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1226,
+"start": 962,
+"end": 1292,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1293,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Joint European Conference on Machine Learning and …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 32,
+"louvainByPaper": 32,
+"wccByPaper": 32
+      }
+    },
+    "p": {
+"identity": 1186,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 3,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Aladin: A new approach for drug–target interaction prediction",
+"betweennessByCite": 0.0,
+"louvainByCite": 3,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1179,
+"start": 1186,
+"end": 1293,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1294,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of Chemometrics",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 33,
+"louvainByPaper": 33,
+"wccByPaper": 33
+      }
+    },
+    "p": {
+"identity": 1178,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 18,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "A multivariate characterization of tRNA nucleosides",
+"betweennessByCite": 0.0,
+"louvainByCite": 18,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1171,
+"start": 1178,
+"end": 1294,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1295,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of Chromatography A",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 34,
+"louvainByPaper": 34,
+"wccByPaper": 34
+      }
+    },
+    "p": {
+"identity": 1194,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 13,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Capillary electrophoresis methods for the analysis of antimalarials. Part I. Chiral separation methods",
+"betweennessByCite": 0.0,
+"louvainByCite": 13,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1187,
+"start": 1194,
+"end": 1295,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1296,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of Chemical …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 35,
+"louvainByPaper": 35,
+"wccByPaper": 35
+      }
+    },
+    "p": {
+"identity": 1248,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 4,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "The Use of Methods of Computer-Aided Drug Discovery in the Development of Topoisomerase II Inhibitors: Applications and Future Directions",
+"betweennessByCite": 0.0,
+"louvainByCite": 4,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1243,
+"start": 1248,
+"end": 1296,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1296,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of Chemical …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 35,
+"louvainByPaper": 35,
+"wccByPaper": 35
+      }
+    },
+    "p": {
+"identity": 1212,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 11,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "GHOST: Adjusting the Decision Threshold to Handle Imbalanced Data in Machine Learning",
+"betweennessByCite": 0.0,
+"louvainByCite": 11,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1206,
+"start": 1212,
+"end": 1296,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1297,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of Chromatography …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 36,
+"louvainByPaper": 36,
+"wccByPaper": 36
+      }
+    },
+    "p": {
+"identity": 1213,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 13,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Experimental validation of a new integrated simulated moving bed process for the production of single enantiomers",
+"betweennessByCite": 0.0,
+"louvainByCite": 13,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1204,
+"start": 1213,
+"end": 1297,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1298,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of Molecular Graphics and Modelling",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 37,
+"louvainByPaper": 37,
+"wccByPaper": 37
+      }
+    },
+    "p": {
+"identity": 1227,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 18,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Numeric promoter description–A comparative view on concepts and general application",
+"betweennessByCite": 0.0,
+"louvainByCite": 18,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1220,
+"start": 1227,
+"end": 1298,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1299,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of Molecular Graphics and …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 38,
+"louvainByPaper": 38,
+"wccByPaper": 38
+      }
+    },
+    "p": {
+"identity": 1177,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 0,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "A cheminformatic study on chemical space characterization and diversity analysis of 5-LOX inhibitors",
+"betweennessByCite": 0.0,
+"louvainByCite": 0,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1170,
+"start": 1177,
+"end": 1299,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1300,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of Structural …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 39,
+"louvainByPaper": 39,
+"wccByPaper": 39
+      }
+    },
+    "p": {
+"identity": 1230,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 5,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Potential curves of two-molecule interactions in some smectic and ferroelectric liquid crystals",
+"betweennessByCite": 0.0,
+"louvainByCite": 5,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1225,
+"start": 1230,
+"end": 1300,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1301,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of chemical …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 40,
+"louvainByPaper": 40,
+"wccByPaper": 40
+      }
+    },
+    "p": {
+"identity": 1257,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 8,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Using Predicted Bioactivity Profiles to Improve Predictive Modeling",
+"betweennessByCite": 0.0,
+"louvainByCite": 114,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1253,
+"start": 1257,
+"end": 1301,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1301,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of chemical …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 40,
+"louvainByPaper": 40,
+"wccByPaper": 40
+      }
+    },
+    "p": {
+"identity": 1198,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 6,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Comparing the influence of simulated experimental errors on 12 machine learning algorithms in bioactivity modeling using 12 diverse data sets",
+"betweennessByCite": 0.0,
+"louvainByCite": 6,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1190,
+"start": 1198,
+"end": 1301,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1302,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of chemometrics",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 41,
+"louvainByPaper": 41,
+"wccByPaper": 41
+      }
+    },
+    "p": {
+"identity": 1252,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 18,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "The evolutionary transition from uracil to thymine balances the genetic code",
+"betweennessByCite": 0.0,
+"louvainByCite": 18,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1247,
+"start": 1252,
+"end": 1302,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1303,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of computer …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 42,
+"louvainByPaper": 42,
+"wccByPaper": 42
+      }
+    },
+    "p": {
+"identity": 1254,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 0,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Towards the understanding of the activity of G9a inhibitors: an activity landscape and molecular modeling approach",
+"betweennessByCite": 0.0,
+"louvainByCite": 0,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1250,
+"start": 1254,
+"end": 1303,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1304,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of computer-aided …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 43,
+"louvainByPaper": 43,
+"wccByPaper": 43
+      }
+    },
+    "p": {
+"identity": 1189,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 18,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Application of multivariate data analysis methods to comparative molecular field analysis (CoMFA) data: proton affinities and pKa prediction for nucleic acids …",
+"betweennessByCite": 0.0,
+"louvainByCite": 18,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1182,
+"start": 1189,
+"end": 1304,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1305,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of medicinal …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 44,
+"louvainByPaper": 44,
+"wccByPaper": 44
+      }
+    },
+    "p": {
+"identity": 1253,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 12,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "The interaction of ammonium, sulfonium, and sulfide analogs of metoclopramide with the dopamine D2 receptor",
+"betweennessByCite": 0.0,
+"louvainByCite": 12,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1248,
+"start": 1253,
+"end": 1305,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1305,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of medicinal …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 44,
+"louvainByPaper": 44,
+"wccByPaper": 44
+      }
+    },
+    "p": {
+"identity": 1226,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 15,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "New chemical descriptors relevant for the design of biologically active peptides. A multivariate characterization of 87 amino acids",
+"betweennessByCite": 0.0,
+"louvainByCite": 15,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1219,
+"start": 1226,
+"end": 1305,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1305,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of medicinal …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 44,
+"louvainByPaper": 44,
+"wccByPaper": 44
+      }
+    },
+    "p": {
+"identity": 1208,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 12,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Effects of solvation on the ionization and conformation of raclopride and other antidopaminergic 6-methoxysalicylamides: insight into the pharmacophore",
+"betweennessByCite": 0.0,
+"louvainByCite": 12,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1200,
+"start": 1208,
+"end": 1305,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1306,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of molecular modeling",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 45,
+"louvainByPaper": 45,
+"wccByPaper": 45
+      }
+    },
+    "p": {
+"identity": 1237,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 6,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Representing descriptors derived from multiple conformations as uncertain features for machine learning",
+"betweennessByCite": 0.0,
+"louvainByCite": 6,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1233,
+"start": 1237,
+"end": 1306,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1307,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of the Iranian Chemical Society",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 46,
+"louvainByPaper": 46,
+"wccByPaper": 46
+      }
+    },
+    "p": {
+"identity": 1249,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 16,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "The crystal structure of tert-butyl coumarin-3-carboxylate",
+"betweennessByCite": 0.0,
+"louvainByCite": 16,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1244,
+"start": 1249,
+"end": 1307,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1308,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of the Chemical …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 47,
+"louvainByPaper": 47,
+"wccByPaper": 47
+      }
+    },
+    "p": {
+"identity": 1195,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 7,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Charged paracyclophanes behave as annulenes with enhanced anisotropy",
+"betweennessByCite": 0.0,
+"louvainByCite": 7,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1188,
+"start": 1195,
+"end": 1308,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1309,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Journal of …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 48,
+"louvainByPaper": 48,
+"wccByPaper": 48
+      }
+    },
+    "p": {
+"identity": 1190,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 11,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Assessing the calibration in toxicological in vitro models with conformal prediction",
+"betweennessByCite": 0.0,
+"louvainByCite": 11,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1183,
+"start": 1190,
+"end": 1309,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1310,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Life Sciences",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 49,
+"louvainByPaper": 49,
+"wccByPaper": 49
+      }
+    },
+    "p": {
+"identity": 1218,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 20,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Increased putrescine levels due to ODC1 overexpression prevents mitochondrial dysfunction-related apoptosis induced by methylmercury",
+"betweennessByCite": 0.0,
+"louvainByCite": 20,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1211,
+"start": 1218,
+"end": 1310,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1311,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Molecules",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 50,
+"louvainByPaper": 50,
+"wccByPaper": 50
+      }
+    },
+    "p": {
+"identity": 1222,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 10,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Lysosomotropic Features and Autophagy Modulators among Medical Drugs: Evaluation of Their Role in Pathologies",
+"betweennessByCite": 0.0,
+"louvainByCite": 14,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1215,
+"start": 1222,
+"end": 1311,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1311,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Molecules",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 50,
+"louvainByPaper": 50,
+"wccByPaper": 50
+      }
+    },
+    "p": {
+"identity": 1175,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 4,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "A deep-learning approach toward rational molecular docking protocol selection",
+"betweennessByCite": 0.0,
+"louvainByCite": 4,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1168,
+"start": 1175,
+"end": 1311,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1312,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Molecular Crystals and …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 51,
+"louvainByPaper": 51,
+"wccByPaper": 51
+      }
+    },
+    "p": {
+"identity": 1180,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 5,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "A theoretical study of molecular ordering of some smectic liquid crystals",
+"betweennessByCite": 0.0,
+"louvainByCite": 5,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1172,
+"start": 1180,
+"end": 1312,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1313,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "NA",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 52,
+"louvainByPaper": 52,
+"wccByPaper": 52
+      }
+    },
+    "p": {
+"identity": 1260,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 19,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Компьютерное моделирование структур активных центров моноаминоксидаз А и Б и поиск новых ингибиторов моноаминоксидазы А",
+"betweennessByCite": 0.0,
+"louvainByCite": 19,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1255,
+"start": 1260,
+"end": 1313,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1313,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "NA",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 52,
+"louvainByPaper": 52,
+"wccByPaper": 52
+      }
+    },
+    "p": {
+"identity": 1258,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 19,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Компьютерное моделирование активных центров моноаминоксидаз и создание ингибиторов с заданной селективностью",
+"betweennessByCite": 0.0,
+"louvainByCite": 19,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1254,
+"start": 1258,
+"end": 1313,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1313,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "NA",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 52,
+"louvainByPaper": 52,
+"wccByPaper": 52
+      }
+    },
+    "p": {
+"identity": 1259,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 11,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Vectorization of architectural floor plans",
+"betweennessByCite": 0.0,
+"louvainByCite": 11,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1252,
+"start": 1259,
+"end": 1313,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1313,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "NA",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 52,
+"louvainByPaper": 52,
+"wccByPaper": 52
+      }
+    },
+    "p": {
+"identity": 1246,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 3,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "The INFUSIS Project",
+"louvainByCite": 3,
+"betweennessByCite": 0.0,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1241,
+"start": 1246,
+"end": 1313,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1313,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "NA",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 52,
+"louvainByPaper": 52,
+"wccByPaper": 52
+      }
+    },
+    "p": {
+"identity": 1242,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 13,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Synthesis of integrated chemical processes for the production of single enantiomers",
+"betweennessByCite": 0.0,
+"louvainByCite": 13,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1236,
+"start": 1242,
+"end": 1313,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1313,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "NA",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 52,
+"louvainByPaper": 52,
+"wccByPaper": 52
+      }
+    },
+    "p": {
+"identity": 1238,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 17,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Sintese e propriedades mesomorficas da serie homologa 5-n-pentoxisaliciliden-4-n-alcoxianilina",
+"betweennessByCite": 0.0,
+"louvainByCite": 17,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1232,
+"start": 1238,
+"end": 1313,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1313,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "NA",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 52,
+"louvainByPaper": 52,
+"wccByPaper": 52
+      }
+    },
+    "p": {
+"identity": 1221,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 2,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Learning predictive models from graph data using pattern mining",
+"betweennessByCite": 0.0,
+"louvainByCite": 2,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1214,
+"start": 1221,
+"end": 1313,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1313,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "NA",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 52,
+"louvainByPaper": 52,
+"wccByPaper": 52
+      }
+    },
+    "p": {
+"identity": 1219,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 6,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Introducing Uncertainty into Predictive Modeling",
+"betweennessByCite": 0.0,
+"louvainByCite": 6,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1212,
+"start": 1219,
+"end": 1313,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1313,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "NA",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 52,
+"louvainByPaper": 52,
+"wccByPaper": 52
+      }
+    },
+    "p": {
+"identity": 1201,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 15,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Deciphering Sequence Data: A Multivariate Approach",
+"betweennessByCite": 0.0,
+"louvainByCite": 15,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1194,
+"start": 1201,
+"end": 1313,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1313,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "NA",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 52,
+"louvainByPaper": 52,
+"wccByPaper": 52
+      }
+    },
+    "p": {
+"identity": 1196,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 2,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Chemoinformatics: The stakeholder of Information Solutions for Chemical and Allied Medical Domain",
+"betweennessByCite": 0.0,
+"louvainByCite": 2,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1191,
+"start": 1196,
+"end": 1313,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1313,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "NA",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 52,
+"louvainByPaper": 52,
+"wccByPaper": 52
+      }
+    },
+    "p": {
+"identity": 1197,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 1,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Chemical graph theory",
+"louvainByCite": 1,
+"betweennessByCite": 0.0,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1189,
+"start": 1197,
+"end": 1313,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1313,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "NA",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 52,
+"louvainByPaper": 52,
+"wccByPaper": 52
+      }
+    },
+    "p": {
+"identity": 1192,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 20,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Avaliação da intoxicação mercurial sobre os parâmetros inflamatórios, estresse oxidativo e dosagem de aminoácidos e monoaminas no hipocampo de camundongos …",
+"betweennessByCite": 0.0,
+"louvainByCite": 20,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1185,
+"start": 1192,
+"end": 1313,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1313,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "NA",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 52,
+"louvainByPaper": 52,
+"wccByPaper": 52
+      }
+    },
+    "p": {
+"identity": 1184,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 19,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "AN APPROACH FOR VISUALIZATION OF THE ACTIVE SITE OF ENZYMIES WITH UNKNOWN THREE-DIMENSIONAL STRUCTURES* AV VESELOVSKY**` …",
+"betweennessByCite": 0.0,
+"louvainByCite": 19,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1176,
+"start": 1184,
+"end": 1313,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1314,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Physica A: Statistical …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 53,
+"louvainByPaper": 53,
+"wccByPaper": 53
+      }
+    },
+    "p": {
+"identity": 1185,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 5,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Additive anisotropic interactions in molecular liquids and liquid crystals",
+"betweennessByCite": 0.0,
+"louvainByCite": 5,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1177,
+"start": 1185,
+"end": 1314,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1315,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "PloS one",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 54,
+"louvainByPaper": 54,
+"wccByPaper": 54
+      }
+    },
+    "p": {
+"identity": 1223,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 3,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Modified linear regression predicts drug-target interactions accurately",
+"betweennessByCite": 0.0,
+"louvainByCite": 3,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1216,
+"start": 1223,
+"end": 1315,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1316,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Polycyclic Aromatic Compounds",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 55,
+"louvainByPaper": 55,
+"wccByPaper": 55
+      }
+    },
+    "p": {
+"identity": 1182,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 7,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "A theoretical study on some (1, 4) cyclophanes",
+"betweennessByCite": 0.0,
+"louvainByCite": 7,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1175,
+"start": 1182,
+"end": 1316,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1317,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Protein Engineering",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 56,
+"louvainByPaper": 56,
+"wccByPaper": 56
+      }
+    },
+    "p": {
+"identity": 1233,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 15,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Quantitative structure-function and structure-stability relationships of purposely modified proteins.",
+"betweennessByCite": 0.0,
+"louvainByCite": 15,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1229,
+"start": 1233,
+"end": 1317,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1318,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Reproductive …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 57,
+"louvainByPaper": 57,
+"wccByPaper": 57
+      }
+    },
+    "p": {
+"identity": 1203,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 20,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Does the food processing contaminant acrylamide cause developmental neurotoxicity? A review and identification of knowledge gaps",
+"betweennessByCite": 0.0,
+"louvainByCite": 20,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1197,
+"start": 1203,
+"end": 1318,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1319,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Research on chemical intermediates",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 58,
+"louvainByPaper": 58,
+"wccByPaper": 58
+      }
+    },
+    "p": {
+"identity": 1179,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 7,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "A quantum chemistry study on the structure and properties of a novel stable strained cyclophane",
+"betweennessByCite": 0.0,
+"louvainByCite": 7,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1173,
+"start": 1179,
+"end": 1319,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1320,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "SAR and QSAR in …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 59,
+"louvainByPaper": 59,
+"wccByPaper": 59
+      }
+    },
+    "p": {
+"identity": 1207,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 0,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Endocrine disruption: the noise in available data adversely impacts the models` performance",
+"betweennessByCite": 0.0,
+"louvainByCite": 0,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1201,
+"start": 1207,
+"end": 1320,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1320,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "SAR and QSAR in …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 59,
+"louvainByPaper": 59,
+"wccByPaper": 59
+      }
+    },
+    "p": {
+"identity": 1187,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 19,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "An approach for visualization of the active site of enzymes with unknown three-dimensional structures",
+"betweennessByCite": 0.0,
+"louvainByCite": 19,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1180,
+"start": 1187,
+"end": 1320,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1321,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Scientific reports",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 60,
+"louvainByPaper": 60,
+"wccByPaper": 60
+      }
+    },
+    "p": {
+"identity": 1183,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 20,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Acrylamide alters CREB and retinoic acid signalling pathways during differentiation of the human neuroblastoma SH-SY5Y cell line",
+"betweennessByCite": 0.0,
+"louvainByCite": 20,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1178,
+"start": 1183,
+"end": 1321,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1322,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Synthesis",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 61,
+"louvainByPaper": 61,
+"wccByPaper": 61
+      }
+    },
+    "p": {
+"identity": 1236,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 16,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Reliable and versatile synthesis of 2-aryl-substituted cinnamic acid esters",
+"betweennessByCite": 0.0,
+"louvainByCite": 16,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1231,
+"start": 1236,
+"end": 1322,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1323,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Synthetic Metals",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 62,
+"louvainByPaper": 62,
+"wccByPaper": 62
+      }
+    },
+    "p": {
+"identity": 1231,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 1,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Polyaniline; model studies",
+"louvainByCite": 1,
+"betweennessByCite": 0.0,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1224,
+"start": 1231,
+"end": 1323,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1324,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Tetrahedron",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 63,
+"louvainByPaper": 63,
+"wccByPaper": 63
+      }
+    },
+    "p": {
+"identity": 1217,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 1,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Hückel theory applied to large linear and cyclic conjugated π-systems",
+"betweennessByCite": 0.0,
+"louvainByCite": 1,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1209,
+"start": 1217,
+"end": 1324,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1324,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Tetrahedron",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 63,
+"louvainByPaper": 63,
+"wccByPaper": 63
+      }
+    },
+    "p": {
+"identity": 1188,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 1,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "An improved correlation between polarographic reduction potential and huckel lumo energy. Application to non-benzenoid hydrocarbons",
+"betweennessByCite": 0.0,
+"louvainByCite": 1,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1181,
+"start": 1188,
+"end": 1324,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1325,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "The Swedish AI …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 64,
+"louvainByPaper": 64,
+"wccByPaper": 64
+      }
+    },
+    "p": {
+"identity": 1247,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 3,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "The INFUSIS Project: Data and Text Mining for In Silico Modeling",
+"betweennessByCite": 0.0,
+"louvainByCite": 3,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1242,
+"start": 1247,
+"end": 1325,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1326,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Transition Temperatures and Related Properties of …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 65,
+"louvainByPaper": 65,
+"wccByPaper": 65
+      }
+    },
+    "p": {
+"identity": 1234,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 5,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "References for 3",
+"louvainByCite": 5,
+"betweennessByCite": 0.0,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1230,
+"start": 1234,
+"end": 1326,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1326,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "Transition Temperatures and Related Properties of …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 65,
+"louvainByPaper": 65,
+"wccByPaper": 65
+      }
+    },
+    "p": {
+"identity": 1176,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 5,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "3 Two-Ring Systems with Bridging Group. Part 7",
+"betweennessByCite": 0.0,
+"louvainByCite": 5,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1167,
+"start": 1176,
+"end": 1326,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1327,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "arXiv preprint arXiv:1908.03569",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 66,
+"louvainByPaper": 66,
+"wccByPaper": 66
+      }
+    },
+    "p": {
+"identity": 1199,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 8,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Concepts and applications of conformal prediction in computational drug discovery",
+"betweennessByCite": 0.0,
+"louvainByCite": 114,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1193,
+"start": 1199,
+"end": 1327,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1328,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "… A European Journal",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 67,
+"louvainByPaper": 67,
+"wccByPaper": 67
+      }
+    },
+    "p": {
+"identity": 1228,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 16,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "Oxidative Cyclization Reaction of 2‐Aryl‐Substituted Cinnamates To Form Phenanthrene Carboxylates by Using MoCl5",
+"betweennessByCite": 0.0,
+"louvainByCite": 16,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1222,
+"start": 1228,
+"end": 1328,
+"type": "PUBLISHED_AT",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1329,
+"labels": [
+        "Journal"
+      ],
+"properties": {
+"venue": "… et Biophysica Acta (BBA …",
+"pagerankByPapers": 0.15000000000000002,
+"louvainByCite": 68,
+"louvainByPaper": 68,
+"wccByPaper": 68
+      }
+    },
+    "p": {
+"identity": 1250,
+"labels": [
+        "Paper"
+      ],
+"properties": {
+"wccByCite": 15,
+"pagerankByCites": 0.15000000000000002,
+"pagerankByJournal": 0.15000000000000002,
+"title": "The crystal structure of the spinach plastocyanin double mutant G8D/L12E gives insight into its low reactivity towards photosystem 1 and cytochrome f",
+"betweennessByCite": 0.0,
+"louvainByCite": 15,
+"pagerankByPublish": 0.15000000000000002
+      }
+    },
+    "r": {
+"identity": 1245,
+"start": 1250,
+"end": 1329,
+"type": "PUBLISHED_AT",
+"properties": {
+
       }
     }
   }
 ]
+}
