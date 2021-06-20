@@ -24,7 +24,9 @@ http://a0537314.xsph.ru/ -ссылка на проект
 
 Стек решения: JavaScript, Python, Java, D3.js, Nginx.
 
- Уникальность: формирование датасета, применение методов анализа данных: WCC, Louvain, SLLPA, graph embeddings.
+ Уникальность: формирование датасета, применение методов анализа данных: WCC, Louvain, SLLPA, graph embeddings.<br/>
+ Скринкаст доступен по ссылке -> https://drive.google.com/file/d/1TD7VDL3DGDPyMdMMxTtCInYM1QIXr7le/view <br/>
+ Презентацию можно скачать по ссылке -> https://github.com/Aratmany/SearchBlackSwan/blob/main/AratStudio_Final_3_compressed.pdf
 -------------
 
 ###Запуск проекта (NPM)
