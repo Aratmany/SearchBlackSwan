@@ -12,7 +12,7 @@
 ##Скриншоты проекта
 
 
-https://confident-noether-67a8eb.netlify.app/index.html -ссылка на проект
+https://searchblackswan.netlify.app/ -ссылка на проект
 =============
 
 Описание проекта
@@ -40,7 +40,7 @@ yarn install
 `<Ссылка на архив >` : <https://drive.google.com/drive/folders/1mvUn69uihzl83e-do8lsF34kPobZQjGH?usp=sharing>
 
 ![](https://github.com/Aratmany/SearchBlackSwan/blob/main/Screenshot_17.png)
-Если скачаете на локальный сервер, возможно будет проблема CORS -> В целях безопасности браузеры ограничивают cross-origin запросы, инициируемые скриптами. Если есть проблемы CORS -> лучше смотреть проект по ссылке https://confident-noether-67a8eb.netlify.app/index.html
+Если скачаете на локальный сервер, возможно будет проблема CORS -> В целях безопасности браузеры ограничивают cross-origin запросы, инициируемые скриптами. Если есть проблемы CORS -> лучше смотреть проект по ссылке https://searchblackswan.netlify.app/
 =============
 Cross-Origin Resource Sharing (CORS) — механизм, использующий дополнительные HTTP-заголовки, чтобы дать возможность агенту пользователя получать разрешения на доступ к выбранным ресурсам с сервера на источнике (домене), отличном от того, что сайт использует в данный момент. 
                 
